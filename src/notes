@@ -1,0 +1,8 @@
+1. What are streams?
+ : - Stream API is new feature available form java 8. By using stream we can perform various aggregate oprations on the data returned
+ form collection classes by reduce the complexity of code.
+ 
+2. Lambda Expression (->)
+ - It divides the lambda expression into tow parts:
+   - the left side specifies the parameter required by the expression which could also be empty.
+   - the right side is the lambda body which specifies the actions of lambda expression.
