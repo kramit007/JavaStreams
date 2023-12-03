@@ -52,7 +52,7 @@ public class Streams {
 
 	@Test
 	public void streamMap() {
-//		print names with last char as "t" and covert to uppercase
+//		print names with last char as "t" and covert to Uppercase and create stream directly
 		Stream.of("Amit", "Sugit", "Mohit", "Don", "Rohan").filter(s -> s.endsWith("t")).map(s -> s.toUpperCase())
 				.forEach(s -> System.out.println(s));
 

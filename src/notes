@@ -6,3 +6,10 @@
  - It divides the lambda expression into tow parts:
    - the left side specifies the parameter required by the expression which could also be empty.
    - the right side is the lambda body which specifies the actions of lambda expression.
+   
+3. Streams can scan whole collection paralelly and execution is faster.
+
+4. The working of stream.
+  - Create stream 
+  - perform intermediate operation on initial stream to create anothe stream 
+  - perform terminal operation on the final stream to get the result.
